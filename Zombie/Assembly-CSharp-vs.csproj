@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\JEFF_Scripts\CameraFollow.cs" />
      <Compile Include="Assets\JEFF_Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\JEFF_Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\JEFF_Scripts\EnemyMovement.cs" />
@@ -55,6 +56,8 @@
      <Compile Include="Assets\JEFF_Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\JEFF_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\JEFF_Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\ThirdPersonUserControl.cs" />
      <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Necromancer GUI\Readme.txt" />

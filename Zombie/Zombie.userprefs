@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JEFF_Scripts\EnemyMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ThirdPersonUserControl.cs">
     <Files>
-      <File FileName="Assets\JEFF_Scripts\EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\ThirdPersonUserControl.cs" Line="28" Column="48" />
+      <File FileName="Assets\ThirdPersonUserControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
