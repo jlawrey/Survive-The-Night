@@ -56,6 +56,7 @@
      <Compile Include="Assets\JEFF_Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\JEFF_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\JEFF_Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\ThirdPersonUserControl.cs" />
      <None Include="Assets\San Francisco House\readme.txt" />
