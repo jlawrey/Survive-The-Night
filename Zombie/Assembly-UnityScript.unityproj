@@ -49,6 +49,7 @@
      <Compile Include="Assets\MouseOrbit_1.js" />
      <Compile Include="Assets\Necromancer GUI\GUITestScript.js" />
      <None Include="Assets\San Francisco House\readme.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Necromancer GUI\Readme.txt" />
  <Reference Include="UnityEngine.UI">

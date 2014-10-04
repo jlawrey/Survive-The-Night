@@ -1,13 +1,13 @@
 using UnityEngine;
 
-[RequireComponent(typeof(ThirdPersonCharacter))]
+[RequireComponent(typeof(ThirdPersonCharacter_V2))]
 public class ThirdPersonUserControl : MonoBehaviour {
 	
 	public bool walkByDefault = false;                  // toggle for walking state
 	public bool lookInCameraDirection = true;           // should the character be looking in the same direction that the camera is facing
 	
 	private Vector3 lookPos;                            // The position that the character should be looking towards
-    private ThirdPersonCharacter character;             // A reference to the ThirdPersonCharacter on the object
+    private ThirdPersonCharacter_V2 character;             // A reference to the ThirdPersonCharacter on the object
 	private Transform cam;                              // A reference to the main camera in the scenes transform
 	private Vector3 camForward;							// The current forward direction of the camera
 	private Vector3 move;								// the world-relative desired move direction, calculated from the camForward and user input.
@@ -25,7 +25,7 @@ public class ThirdPersonUserControl : MonoBehaviour {
 		}
 
         // get the third person character ( this should never be null due to require component )
-		character = GetComponent<ThirdPersonCharacter>();
+		character = GetComponent<ThirdPersonCharacter_V2>();
 	}
 
 	// Fixed update is called in sync with physics

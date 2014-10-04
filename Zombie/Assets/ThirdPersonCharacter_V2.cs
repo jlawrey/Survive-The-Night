@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class ThirdPersonCharacter : MonoBehaviour {
+public class ThirdPersonCharacter_V2 : MonoBehaviour {
 	
 	[SerializeField] float jumpPower = 12;								// determines the jump force applied when jumping (and therefore the jump height)
 	[SerializeField] float airSpeed = 6;								// determines the max speed of the character while airborne
@@ -45,14 +45,14 @@ public class ThirdPersonCharacter : MonoBehaviour {
 	float forwardAmount;
 	Vector3 velocity;
 	IComparer rayHitComparer;
-	public float ztime = 0;
+	//public float ztime = 0;
 	public bool resting;
 	public float staminaInd;
 	// Use this for initialization
 	void Start () {
 		animator = GetComponentInChildren<Animator>();
 		capsule = collider as CapsuleCollider;
-		staminaInd = PlayerPrefs.GetInt("Stamina");
+		//staminaInd = PlayerPrefs.GetInt("Stamina");
 		// as can return null so we need to make sure thats its not before assigning to it
 	    if (capsule != null) {
 	        originalHeight = capsule.height;
@@ -272,6 +272,23 @@ public class ThirdPersonCharacter : MonoBehaviour {
 		if (!onGround) {
 			animator.SetFloat ("Jump", velocity.y);
 		}
+		//Set Punch buttons for the animator
+		if (onGround) {
+			if (Input.GetButtonDown ("Fire1")) {
+				animator.SetBool ("Punch_L", true);
+			} else{
+				animator.SetBool ("Punch_L", false);
+			}
+		}
+		
+		if (onGround) {
+			if (Input.GetButtonDown ("Fire3")) {
+				animator.SetBool ("Punch_R", true);
+			} else{
+				animator.SetBool ("Punch_R", false);
+				
+			}
+		}
 
 		// calculate which leg is behind, so as to leave that leg trailing in the jump animation
 		// (This code is reliant on the specific run cycle offset in our animations,
@@ -350,28 +367,28 @@ public class ThirdPersonCharacter : MonoBehaviour {
 		}	
 	}
 
-	public void haltJump(){
-
-		ztime += Time.deltaTime;
-		if (ztime > (1+(staminaInd*3))){
-			resting = true;
-			StartCoroutine(zwait(3.0f));
-
-			
-		}
-
-	}
-
-	IEnumerator zwait(float zseconds){
-		yield return new WaitForSeconds(zseconds);
-		ztime = 0;
-		resting = false;
-		
-	}
-
-
-	void Update	(){
-		haltJump();
-	}
+//	public void haltJump(){
+//
+//		ztime += Time.deltaTime;
+//		if (ztime > (1+(staminaInd*3))){
+//			resting = true;
+//			StartCoroutine(zwait(3.0f));
+//
+//			
+//		}
+//
+//	}
+//
+//	IEnumerator zwait(float zseconds){
+//		yield return new WaitForSeconds(zseconds);
+//		ztime = 0;
+//		resting = false;
+//		
+//	}
+//
+//
+//	void Update	(){
+//		haltJump();
+//	}
 
 }
