@@ -58,13 +58,17 @@
      <Compile Include="Assets\JEFF_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\JEFF_Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
+     <Compile Include="Assets\MouseAim.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
      <Compile Include="Assets\ThirdPersonUserControl.cs" />
      <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
      <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\Cartoon Soldier\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

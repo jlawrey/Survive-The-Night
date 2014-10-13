@@ -274,7 +274,7 @@ public class ThirdPersonCharacter_V2 : MonoBehaviour {
 		}
 		//Set Punch buttons for the animator
 		if (onGround) {
-			if (Input.GetButtonDown ("Fire1")) {
+			if (Input.GetButton ("Fire1")) {
 				animator.SetBool ("Punch_L", true);
 			} else{
 				animator.SetBool ("Punch_L", false);
