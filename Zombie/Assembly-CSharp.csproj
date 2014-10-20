@@ -60,8 +60,10 @@
      <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\MouseAim.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
+     <Compile Include="Assets\ThemeMusicPlay.cs" />
      <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
      <Compile Include="Assets\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\UIManagerScript.cs" />
      <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />

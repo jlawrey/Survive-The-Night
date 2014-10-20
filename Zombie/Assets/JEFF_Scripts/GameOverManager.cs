@@ -26,7 +26,7 @@ public class GameOverManager : MonoBehaviour
 
             if (restartTimer >= restartDelay)
             {
-                Application.LoadLevel(Application.loadedLevel);
+                Application.LoadLevel("SplashLoader");
             }
         }
     }

@@ -2,7 +2,8 @@
 
 public class PlayerShooting : MonoBehaviour
 {
-    public int damagePerShot = 20;
+
+	public int damagePerShot = 20;
     public float timeBetweenBullets = 0.15f;
     public float range = 100f;
 
@@ -18,13 +19,16 @@ public class PlayerShooting : MonoBehaviour
     float effectsDisplayTime = 0.2f;
 
 
+
     void Awake ()
     {
+
         shootableMask = LayerMask.GetMask ("Shootable");
         gunParticles = GetComponent<ParticleSystem> ();
         gunLine = GetComponent <LineRenderer> ();
         gunAudio = GetComponent<AudioSource> ();
         gunLight = GetComponent<Light> ();
+
     }
 
 
@@ -81,5 +85,12 @@ public class PlayerShooting : MonoBehaviour
         {
             gunLine.SetPosition (1, shootRay.origin + shootRay.direction * range);
         }
-    }
+
+    
+
+
+		
+	}
+	
 }
+

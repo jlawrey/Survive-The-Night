@@ -9,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
     NavMeshAgent nav;
 
 
-    void Awake ()
+    void Start ()
     {
         player = GameObject.FindGameObjectWithTag ("Player").transform;
         playerHealth = player.GetComponent <PlayerHealth> ();
@@ -24,9 +24,9 @@ public class EnemyMovement : MonoBehaviour
         {
             nav.SetDestination (player.position);
         }
-        else
-        {
-            nav.enabled = false;
-        }
+       else
+		{
+			nav.enabled = false;
+		}
     }
 }

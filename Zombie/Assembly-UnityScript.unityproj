@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\ZombieKill.js" />
      <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\autoDestroy.js" />
      <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\bulletHoleProperty.js" />
      <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\externalCamera.js" />

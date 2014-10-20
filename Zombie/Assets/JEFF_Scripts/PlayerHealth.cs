@@ -4,8 +4,11 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
+	//public int startingHunger = 100;
     public int startingHealth = 100;
     public int currentHealth;
+	//public int currentHunger;
+	//public Slider hungerSlider;
     public Slider healthSlider;
     public Image damageImage;
     public AudioClip deathClip;
@@ -28,6 +31,7 @@ public class PlayerHealth : MonoBehaviour
         //playerMovement = GetComponent <PlayerMovement> ();
         playerShooting = GetComponentInChildren <PlayerShooting> ();
         currentHealth = startingHealth;
+		//currentHunger = startingHunger;
     }
 
 
@@ -50,9 +54,9 @@ public class PlayerHealth : MonoBehaviour
         damaged = true;
 
         currentHealth -= amount;
-
+		//currentHunger -= amount;
         healthSlider.value = currentHealth;
-
+		//hungerSlider.value = currentHunger;
         playerAudio.Play ();
 
         if(currentHealth <= 0 && !isDead)
