@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JEFF_Scripts\GameOverManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JEFF_Scripts\Aim_v2.cs">
     <Files>
-      <File FileName="Assets\JEFF_Scripts\PlayerHealth.cs" Line="84" Column="1" />
-      <File FileName="Assets\JEFF_Scripts\GameOverManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\ThemeMusicPlay.cs" Line="1" Column="1" />
-      <File FileName="Assets\UIManagerScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\JEFF_Scripts\PlayerHealth.cs" Line="59" Column="5" />
+      <File FileName="Assets\JEFF_Scripts\Aim_v2.cs" Line="16" Column="76" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
