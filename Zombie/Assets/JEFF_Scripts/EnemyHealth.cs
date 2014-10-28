@@ -29,10 +29,10 @@ public class EnemyHealth : MonoBehaviour
 
     void Update ()
     {
-//        if(isSinking)
-//        {
-//            transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
-//        }
+        if(isSinking)
+        {
+            transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
+        }
     }
 
 
@@ -65,6 +65,7 @@ public class EnemyHealth : MonoBehaviour
 
         enemyAudio.clip = deathClip;
         enemyAudio.Play ();
+		ScoreManager.score += scoreValue;
 		Destroy (this.capsuleCollider);
 		Destroy (this.gameObject,3f);
     }

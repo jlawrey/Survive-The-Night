@@ -16,8 +16,9 @@ private Camera myCamera;
 			myCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera> ();
 			myTransform = transform;    //So you don't GetComponent your transform with every OnGUI call
 			
-		
-			Screen.showCursor = false;
+
+			
+		Screen.showCursor = false;
 		
 		
 				}			

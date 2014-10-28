@@ -11,6 +11,12 @@ public class MouseAim : MonoBehaviour {
 	public Texture2D targetAim;
 	private Vector2 aimLoc;
 	//private bool onTarget = false;
+	void Start()
+	{
+		if (rigidbody)
+			rigidbody.freezeRotation = true;
+	}
+
 	public void LateUpdate(){
 		Vector3 point = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.
 		        farClipPlane));
