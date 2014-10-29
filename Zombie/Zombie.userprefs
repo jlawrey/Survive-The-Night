@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JEFF_Scripts\PlayerShooting.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JEFF_Scripts\EnemyHealth.cs">
     <Files>
-      <File FileName="Assets\MouseAim.cs" Line="65" Column="1" />
-      <File FileName="Assets\JEFF_Scripts\PlayerShooting.cs" Line="39" Column="97" />
+      <File FileName="Assets\MouseAim.cs" Line="48" Column="3" />
+      <File FileName="Assets\JEFF_Scripts\EnemyHealth.cs" Line="73" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

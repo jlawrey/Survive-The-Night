@@ -8,9 +8,7 @@ public class MouseAim : MonoBehaviour {
 	public float compensationYAngle = 20.0f;
 	public float minAngle = 308.0f;
 	public float maxAngle = 31.0f;
-	public Texture2D targetAim;
-	private Vector2 aimLoc;
-	//private bool onTarget = false;
+
 	void Start()
 	{
 		if (rigidbody)
@@ -45,22 +43,8 @@ public class MouseAim : MonoBehaviour {
 				spine.localEulerAngles = max;
 			}
 		}
-		RaycastHit hit;
-		if (Physics.Raycast (armedHand.position, point, out hit))
-		{
-			//onTarget = true;
-			aimLoc = Camera.main.WorldToViewportPoint(hit.point);
 
-				
-		} else {
-			//onTarget = false;
-			aimLoc = Camera.main.WorldToViewportPoint(point);
-		}
-		//Debug.DrawRay (armedHand.position, point, Color.red);
+
 	}
-	void OnGUI(){
-		int sw = Screen.width;
-		int sh = Screen.height;
-		GUI.DrawTexture(new Rect(aimLoc.x * sw - 8, sh-(aimLoc.y *sh) -8, 32, 32), targetAim, ScaleMode.StretchToFill, true, 10.0F);
-	}
+
 }

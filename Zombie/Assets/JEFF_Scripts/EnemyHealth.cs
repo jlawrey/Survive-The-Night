@@ -14,7 +14,7 @@ public class EnemyHealth : MonoBehaviour
     ParticleSystem hitParticles;
     CapsuleCollider capsuleCollider; 
     bool isDead;
-    bool isSinking;
+    
 
 
     void Awake ()
@@ -29,10 +29,7 @@ public class EnemyHealth : MonoBehaviour
 
     void Update ()
     {
-        if(isSinking)
-        {
-            transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
-        }
+        
     }
 
 
@@ -71,12 +68,5 @@ public class EnemyHealth : MonoBehaviour
     }
 
 
-//    public void StartSinking ()
-//    {
-//        GetComponent <NavMeshAgent> ().enabled = false;
-//        GetComponent <Rigidbody> ().isKinematic = true;
-//        isSinking = true;
-//        ScoreManager.score += scoreValue;
-//        Destroy (this.gameObject);
-//    }
+
 }
