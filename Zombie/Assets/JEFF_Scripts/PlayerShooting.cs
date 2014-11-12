@@ -36,7 +36,7 @@ public class PlayerShooting : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (Input.GetButton ("Fire2") && timer >= timeBetweenBullets && Input.GetButton ("Fire1")) 
+        if (Input.GetButton ("Fire1") && timer >= timeBetweenBullets) 
 		{
 			Shoot ();
 		}
