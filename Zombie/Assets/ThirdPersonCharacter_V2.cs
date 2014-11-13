@@ -15,8 +15,8 @@ public class ThirdPersonCharacter_V2 : MonoBehaviour {
 	[System.Serializable]
 	public class AdvancedSettings
 	{
-		public float stationaryTurnSpeed = 90;				// additional turn speed added when the player is stationary (added to animation root rotation)
-		public float movingTurnSpeed = 180;					// additional turn speed added when the player is moving (added to animation root rotation)
+		public float stationaryTurnSpeed = 180;				// additional turn speed added when the player is stationary (added to animation root rotation)
+		public float movingTurnSpeed = 360;					// additional turn speed added when the player is moving (added to animation root rotation)
 		public float headLookResponseSpeed = 2;				// speed at which head look follows its target
 		public float crouchHeightFactor = 0.6f; 			// collider height is multiplied by this when crouching
 		public float crouchChangeSpeed = 4;					// speed at which capsule changes height when crouching/standing
