@@ -59,9 +59,15 @@
      <Compile Include="Assets\JEFF_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\JEFF_Scripts\QuitButton.cs" />
      <Compile Include="Assets\JEFF_Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\JM_CameraAim.cs" />
+     <Compile Include="Assets\JM_CharacterRotate.cs" />
+     <Compile Include="Assets\JM_PlayerRotation.cs" />
+     <Compile Include="Assets\JM_SpineRotation.cs" />
      <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\MouseAim.cs" />
+     <Compile Include="Assets\MouseCameraControl.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
+     <Compile Include="Assets\SwitchCamera.cs" />
      <Compile Include="Assets\ThemeMusicPlay.cs" />
      <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
      <Compile Include="Assets\ThirdPersonUserControl.cs" />
@@ -73,9 +79,16 @@
      <None Include="Assets\Necromancer GUI\Readme.txt" />
      <None Include="Assets\FreeMachineGun\documentation.txt" />
      <None Include="Assets\Cartoon Soldier\Readme.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/Jeremy/Desktop/SURVIVE THE NIGHT-TEST/Zombie/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{672124EC-4DC8-A14A-9F1D-3CB930625F59}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

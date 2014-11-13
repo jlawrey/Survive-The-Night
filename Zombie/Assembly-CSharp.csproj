@@ -59,9 +59,15 @@
      <Compile Include="Assets\JEFF_Scripts\PlayerShooting.cs" />
      <Compile Include="Assets\JEFF_Scripts\QuitButton.cs" />
      <Compile Include="Assets\JEFF_Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\JM_CameraAim.cs" />
+     <Compile Include="Assets\JM_CharacterRotate.cs" />
+     <Compile Include="Assets\JM_PlayerRotation.cs" />
+     <Compile Include="Assets\JM_SpineRotation.cs" />
      <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\MouseAim.cs" />
+     <Compile Include="Assets\MouseCameraControl.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
+     <Compile Include="Assets\SwitchCamera.cs" />
      <Compile Include="Assets\ThemeMusicPlay.cs" />
      <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
      <Compile Include="Assets\ThirdPersonUserControl.cs" />
@@ -76,6 +82,12 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{672124EC-4DC8-A14A-9F1D-3CB930625F59}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{D15C16B3-05AF-D8D5-C16A-73A1F82ACA08}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

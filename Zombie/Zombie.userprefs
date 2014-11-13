@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JEFF_Scripts\PlayerShooting.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SwitchCamera.cs">
     <Files>
-      <File FileName="Assets\JEFF_Scripts\PlayerShooting.cs" Line="39" Column="69" />
-      <File FileName="Assets\MouseAim.cs" Line="1" Column="1" />
-      <File FileName="Assets\JEFF_Scripts\EnemyHealth.cs" Line="73" Column="1" />
+      <File FileName="Assets\JM_SpineRotation.cs" Line="18" Column="30" />
+      <File FileName="Assets\ThirdPersonCharacter_V2.cs" Line="24" Column="33" />
+      <File FileName="Assets\JM_CharacterRotate.cs" Line="17" Column="24" />
+      <File FileName="Assets\SwitchCamera.cs" Line="6" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
