@@ -46,8 +46,8 @@ public class ThirdPersonCharacter_V2 : MonoBehaviour {
 	Vector3 velocity;
 	IComparer rayHitComparer;
 	//public float ztime = 0;
-	public bool resting;
-	public float staminaInd;
+	//public bool resting;
+	//public float staminaInd;
 	// Use this for initialization
 	void Start () {
 		animator = GetComponentInChildren<Animator>();
@@ -235,7 +235,7 @@ public class ThirdPersonCharacter_V2 : MonoBehaviour {
 		bool animationGrounded = animator.GetCurrentAnimatorStateInfo (0).IsName ("Grounded");
 		bool okToRepeatJump = Time.time > lastAirTime + advancedSettings.jumpRepeatDelayTime;
         
-		if (jumpInput && !crouchInput && okToRepeatJump && animationGrounded && !resting) {
+		if (jumpInput && !crouchInput && okToRepeatJump && animationGrounded) {
 			// jump!
 			onGround = false;
 			velocity = moveInput * airSpeed;
