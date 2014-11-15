@@ -119,6 +119,7 @@ public class ThirdPersonCharacter_V2 : MonoBehaviour {
 		Vector3 localMove = transform.InverseTransformDirection (moveInput);
 		turnAmount = Mathf.Atan2 (localMove.x, localMove.z);
 		forwardAmount = localMove.z;
+
 	}
 
 	void TurnTowardsCameraForward ()
@@ -265,6 +266,7 @@ public class ThirdPersonCharacter_V2 : MonoBehaviour {
 		animator.applyRootMotion = onGround;
 
 		// update the animator parameters
+
 		animator.SetFloat ("Forward", forwardAmount, 0.1f, Time.deltaTime);
 		animator.SetFloat ("Turn", turnAmount, 0.1f, Time.deltaTime);
 		animator.SetBool ("Crouch", crouchInput);
@@ -289,6 +291,9 @@ public class ThirdPersonCharacter_V2 : MonoBehaviour {
 				
 			}
 		}
+
+
+
 
 		// calculate which leg is behind, so as to leave that leg trailing in the jump animation
 		// (This code is reliant on the specific run cycle offset in our animations,

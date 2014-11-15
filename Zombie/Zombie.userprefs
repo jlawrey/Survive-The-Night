@@ -1,10 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JEFF_Scripts\TimerText.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ThirdPersonCharacter_V2.cs">
     <Files>
-      <File FileName="Assets\JEFF_Scripts\TimerText.cs" Line="35" Column="29" />
-      <File FileName="Assets\JEFF_Scripts\PlayerHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets\JEFF_Scripts\GameOverManager.cs" Line="5" Column="2" />
+      <File FileName="Assets\ThirdPersonCharacter_V2.cs" Line="295" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
