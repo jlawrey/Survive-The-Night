@@ -11,6 +11,6 @@ public class SpawnKill14 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		Destroy (this.gameObject, 290f);
+		Destroy (this.gameObject, 310f);
 	}
 }
