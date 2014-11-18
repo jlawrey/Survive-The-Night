@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{A9C6A3E7-F7E6-C880-8FFA-B82E571A36B9}</ProjectGuid>
+	<ProjectGuid>{672124EC-4DC8-A14A-9F1D-3CB930625F59}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,51 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\Characters\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
-     <Compile Include="Assets\EnemyManager.cs" />
-     <Compile Include="Assets\JEFF_Scripts\Aim_v2.cs" />
-     <Compile Include="Assets\JEFF_Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\JEFF_Scripts\EnemyAttack.cs" />
-     <Compile Include="Assets\JEFF_Scripts\EnemyHealth.cs" />
-     <Compile Include="Assets\JEFF_Scripts\EnemyMovement.cs" />
-     <Compile Include="Assets\JEFF_Scripts\GameOverManager.cs" />
-     <Compile Include="Assets\JEFF_Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\JEFF_Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\JEFF_Scripts\PlayerShooting.cs" />
-     <Compile Include="Assets\JEFF_Scripts\QuitButton.cs" />
-     <Compile Include="Assets\JEFF_Scripts\ScoreManager.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill1.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill10.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill11.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill12.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill13.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill14.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill15.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill2.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill3.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill4.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill5.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill6.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill7.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill8.cs" />
-     <Compile Include="Assets\JEFF_Scripts\SpawnKill9.cs" />
-     <Compile Include="Assets\JEFF_Scripts\TimerText.cs" />
-     <Compile Include="Assets\JEFF_Scripts\spawnActive.cs" />
-     <Compile Include="Assets\JM_CameraAim.cs" />
-     <Compile Include="Assets\JM_CharacterRotate.cs" />
-     <Compile Include="Assets\JM_PlayerRotation.cs" />
-     <Compile Include="Assets\JM_SpineRotation.cs" />
-     <Compile Include="Assets\MouseAim.cs" />
-     <Compile Include="Assets\MouseCameraControl.cs" />
-     <Compile Include="Assets\PlayerHealth.cs" />
-     <Compile Include="Assets\Strafe.cs" />
-     <Compile Include="Assets\SwitchCamera.cs" />
-     <Compile Include="Assets\ThemeMusicPlay.cs" />
-     <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
-     <Compile Include="Assets\ThirdPersonUserControl.cs" />
-     <Compile Include="Assets\UIManagerScript.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
      <None Include="Assets\Vehicles\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
      <None Include="Assets\Vehicles\Panzer_II_Ausf_F\readme.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
@@ -107,16 +63,9 @@
      <None Include="Assets\Weapons\FreeMachineGun\documentation.txt" />
      <None Include="Assets\Characters\Cartoon Soldier\Readme.txt" />
      <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Jeremy/Documents/GitHub/Survive-The-Night/Zombie/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{672124EC-4DC8-A14A-9F1D-3CB930625F59}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Characters\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\EnemyManager.cs" />
      <Compile Include="Assets\JEFF_Scripts\Aim_v2.cs" />
      <Compile Include="Assets\JEFF_Scripts\CameraFollow.cs" />
@@ -77,26 +78,44 @@
      <Compile Include="Assets\JEFF_Scripts\SpawnKill9.cs" />
      <Compile Include="Assets\JEFF_Scripts\TimerText.cs" />
      <Compile Include="Assets\JEFF_Scripts\spawnActive.cs" />
-     <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
+     <Compile Include="Assets\JM_CameraAim.cs" />
+     <Compile Include="Assets\JM_CharacterRotate.cs" />
+     <Compile Include="Assets\JM_PlayerRotation.cs" />
+     <Compile Include="Assets\JM_SpineRotation.cs" />
      <Compile Include="Assets\MouseAim.cs" />
+     <Compile Include="Assets\MouseCameraControl.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\Strafe.cs" />
+     <Compile Include="Assets\SwitchCamera.cs" />
      <Compile Include="Assets\ThemeMusicPlay.cs" />
      <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
      <Compile Include="Assets\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\UIManagerScript.cs" />
+     <None Include="Assets\Vehicles\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
+     <None Include="Assets\Vehicles\Panzer_II_Ausf_F\readme.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
+     <None Include="Assets\Buildings\San Francisco House\readme.txt" />
      <None Include="Assets\San Francisco House\readme.txt" />
+     <None Include="Assets\Vehicles\Damaged_old_car\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
-     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
-     <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Weapons\FreeMachineGun\Shader\BDCS.shader" />
      <None Include="Assets\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Cartoon Soldier\Readme.txt" />
+     <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Weapons\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\Characters\Cartoon Soldier\Readme.txt" />
+     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{672124EC-4DC8-A14A-9F1D-3CB930625F59}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{D15C16B3-05AF-D8D5-C16A-73A1F82ACA08}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

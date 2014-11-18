@@ -46,39 +46,48 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\ZombieKill.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\autoDestroy.js" />
      <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\bulletHoleProperty.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\externalCamera.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\fadeParticles.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\flyingSpark.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\game.js" />
      <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\health.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\laserSight\laserDust.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\laserSight\laserLine.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\laserSight\laserPoint.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\laserSight\laserSight.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\particleAutoDestroy.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\platform.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\shadow.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\spark.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\Misc\triggerChildrenCollider.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\ik\ikArmController.js" />
-     <Compile Include="Assets\Cartoon Soldier\Scripts\ik\inverseKinematics.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\ZombieKill.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\autoDestroy.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\externalCamera.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\fadeParticles.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\flyingSpark.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\game.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\particleAutoDestroy.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\platform.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\shadow.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\spark.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\Misc\triggerChildrenCollider.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\ik\ikArmController.js" />
+     <Compile Include="Assets\Characters\Cartoon Soldier\Scripts\ik\inverseKinematics.js" />
      <Compile Include="Assets\MouseOrbit_1.js" />
      <Compile Include="Assets\Necromancer GUI\GUITestScript.js" />
+     <None Include="Assets\Vehicles\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
+     <None Include="Assets\Vehicles\Panzer_II_Ausf_F\readme.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
+     <None Include="Assets\Buildings\San Francisco House\readme.txt" />
      <None Include="Assets\San Francisco House\readme.txt" />
+     <None Include="Assets\Vehicles\Damaged_old_car\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
-     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
-     <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Weapons\FreeMachineGun\Shader\BDCS.shader" />
      <None Include="Assets\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Cartoon Soldier\Readme.txt" />
+     <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Weapons\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\Characters\Cartoon Soldier\Readme.txt" />
+     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{672124EC-4DC8-A14A-9F1D-3CB930625F59}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{D15C16B3-05AF-D8D5-C16A-73A1F82ACA08}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
