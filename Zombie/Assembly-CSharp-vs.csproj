@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\Characters\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\EnemyManager.cs" />
      <Compile Include="Assets\JEFF_Scripts\Aim_v2.cs" />
      <Compile Include="Assets\JEFF_Scripts\CameraFollow.cs" />
@@ -82,6 +81,7 @@
      <Compile Include="Assets\JM_CharacterRotate.cs" />
      <Compile Include="Assets\JM_PlayerRotation.cs" />
      <Compile Include="Assets\JM_SpineRotation.cs" />
+     <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\MouseAim.cs" />
      <Compile Include="Assets\MouseCameraControl.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
@@ -96,19 +96,16 @@
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
      <None Include="Assets\Buildings\San Francisco House\readme.txt" />
-     <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Vehicles\Damaged_old_car\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\Weapons\FreeMachineGun\Shader\BDCS.shader" />
-     <None Include="Assets\FreeMachineGun\documentation.txt" />
-     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
-     <None Include="Assets\Cartoon Soldier\Readme.txt" />
-     <None Include="Assets\Necromancer GUI\Readme.txt" />
-     <None Include="Assets\Weapons\FreeMachineGun\documentation.txt" />
-     <None Include="Assets\Characters\Cartoon Soldier\Readme.txt" />
+     <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
+     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\Cartoon Soldier\Readme.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Jeremy/Desktop/STN/Zombie/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/Survive-The-Night/Zombie/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
