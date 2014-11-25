@@ -51,13 +51,13 @@
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
      <None Include="Assets\Vehicles\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
+     <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\Vehicles\Panzer_II_Ausf_F\readme.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
      <None Include="Assets\Buildings\San Francisco House\readme.txt" />
      <None Include="Assets\Vehicles\Damaged_old_car\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\San Francisco House\readme.txt" />
      <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
      <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Necromancer GUI\Readme.txt" />
